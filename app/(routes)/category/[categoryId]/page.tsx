@@ -37,7 +37,7 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({
     const sizes = await getSizes();
 
     
-    return ( 
+    return (
         <div className="bg-white">
             <Container>
                 <Billboard data={category.billboard}/>
